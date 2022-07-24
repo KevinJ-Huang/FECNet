@@ -1,0 +1,83 @@
+#### general settings
+name: STEN
+use_tb_logger: true
+model: sr
+distortion: sr
+scale: 1
+gpu_ids: [0]
+
+#### datasets
+datasets:
+  train:
+    name: UEN
+    mode: UEN_train
+    interval_list: [1]
+    random_reverse: false
+    border_mode: false
+#    dataroot: /data/1760921465/dped/iphone/test_data/patches
+    cache_keys: ~
+    filelist: /home/jieh/Projects/ExposureFrequency/FastFourier1/data/groups_train_FiveK.txt
+
+    use_shuffle: true
+    n_workers: 0  # per GPU
+    batch_size: 4
+    IN_size: 256
+    augment: true
+    color: RGB
+
+  val:
+    name: UEN
+    mode: UEN_val
+#    dataroot: /data/1760921465/dped/iphone/test_data/patches
+    filelist: /home/jieh/Projects/ExposureFrequency/FastFourier1/data/groups_test_FiveK.txt
+
+    batch_size: 1
+    use_shuffle: false
+
+
+#### network structures
+network_G:
+  which_model_G: Net1
+  nc: 8
+  groups: 8
+
+#### path
+path:
+  root: /home/jieh/Projects/ExposureFrequency/FastFourier1/output1
+  results_root: /home/jieh/Projects/ExposureFrequency/FastFourier1/output1
+  pretrain: /home/jieh/Projects/ExposureFrequency/FastFourier1/pretrain1
+  pretrain_model_G: ~
+  strict_load: false
+  resume_state: ~
+
+#### training settings: learning rate scheme, loss
+train:
+  lr_G: !!float 4e-4
+  lr_scheme: MultiStepLR
+  beta1: 0.9
+  beta2: 0.99
+  niter: 50000
+  fix_some_part: ~
+  warmup_iter: -1  # -1: no warm up
+
+#### for cosine adjustment
+#  T_period: [400000, 1000000, 1500000, 1500000, 1500000]
+#  restarts: [400000, 1400000, 2700000, 4200000]
+#  restart_weights: [1, 1, 1, 1]
+  lr_scheme: MultiStepLR
+  lr_steps: [20000, 40000]
+  lr_gamma: 0.5
+
+  eta_min: !!float 5e-6
+  pixel_criterion: l1
+  pixel_weight: 5000.0
+  ssim_weight: 1000.0
+  vgg_weight: 1000.0
+
+  val_epoch: !!float 1
+  manual_seed: 0
+
+#### logger
+logger:
+  print_freq: 20
+  save_checkpoint_epoch: !!float 100
