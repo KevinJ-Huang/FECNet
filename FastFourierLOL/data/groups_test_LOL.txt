@@ -1,0 +1,15 @@
+/home/jieh/Dataset/Continous/LOL/test/low/1.png|/home/jieh/Dataset/Continous/LOL/test/high/1.png
+/home/jieh/Dataset/Continous/LOL/test/low/111.png|/home/jieh/Dataset/Continous/LOL/test/high/111.png
+/home/jieh/Dataset/Continous/LOL/test/low/146.png|/home/jieh/Dataset/Continous/LOL/test/high/146.png
+/home/jieh/Dataset/Continous/LOL/test/low/179.png|/home/jieh/Dataset/Continous/LOL/test/high/179.png
+/home/jieh/Dataset/Continous/LOL/test/low/22.png|/home/jieh/Dataset/Continous/LOL/test/high/22.png
+/home/jieh/Dataset/Continous/LOL/test/low/23.png|/home/jieh/Dataset/Continous/LOL/test/high/23.png
+/home/jieh/Dataset/Continous/LOL/test/low/493.png|/home/jieh/Dataset/Continous/LOL/test/high/493.png
+/home/jieh/Dataset/Continous/LOL/test/low/547.png|/home/jieh/Dataset/Continous/LOL/test/high/547.png
+/home/jieh/Dataset/Continous/LOL/test/low/55.png|/home/jieh/Dataset/Continous/LOL/test/high/55.png
+/home/jieh/Dataset/Continous/LOL/test/low/665.png|/home/jieh/Dataset/Continous/LOL/test/high/665.png
+/home/jieh/Dataset/Continous/LOL/test/low/669.png|/home/jieh/Dataset/Continous/LOL/test/high/669.png
+/home/jieh/Dataset/Continous/LOL/test/low/748.png|/home/jieh/Dataset/Continous/LOL/test/high/748.png
+/home/jieh/Dataset/Continous/LOL/test/low/778.png|/home/jieh/Dataset/Continous/LOL/test/high/778.png
+/home/jieh/Dataset/Continous/LOL/test/low/780.png|/home/jieh/Dataset/Continous/LOL/test/high/780.png
+/home/jieh/Dataset/Continous/LOL/test/low/79.png|/home/jieh/Dataset/Continous/LOL/test/high/79.png
