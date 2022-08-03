@@ -1,4 +1,4 @@
-# Exposure-Consistency Representation Learning for Exposure Correction (ACMMM 2022)
+# Deep Fourier-based Exposure Correction with Spatial-Frequency Interaction (ECCV 2022)
 
 Jie Huang+, Yajing Liu+, Feng Zhao*, Keyu Yan, Jinghao Zhang, Yukun Huang, Man Zhou*, Zhiwei Xiong
 
