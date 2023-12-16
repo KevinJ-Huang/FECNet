@@ -1,6 +1,6 @@
 # Deep Fourier-based Exposure Correction with Spatial-Frequency Interaction (ECCV 2022)
 
-Jie Huang+, Yajing Liu+, Feng Zhao*, Keyu Yan, Jinghao Zhang, Yukun Huang, Man Zhou*, Zhiwei Xiong
+Jie Huang+, Yajing Liu+, Feng Zhao*, Keyu Yan, Jinghao Zhang, Yukun Huang, Man Zhou, Zhiwei Xiong
 
 *Equal Corresponding Authors
 
@@ -48,8 +48,9 @@ SICE dataset (I have uploaded it to https://share.weiyun.com/C2aJ1Cti)
 
 ## Ours Results
 
-coming soon
+MSEC dataset (https://drive.google.com/file/d/1AOuWujPffYaYJsDmkA8OcyU5S5a4zClP/view?usp=drive_link)
 
+SICE dataset (https://drive.google.com/file/d/1_Ya8iyRqOGoOy10nAyTHZS-6dJcuLVhU/view?usp=drive_link)
 
 ## Contact
 
